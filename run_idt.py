@@ -12,7 +12,7 @@ import densetrack
 # raw IDT features will be outputted.
 HOG_FISHER_VECTOR = False
 HOF_FISHER_VECTOR = False
-MBH_FISHER_VECTOR = True
+MBH_FISHER_VECTOR = False
 
 DATA_DIRECTORY = 'data'  # the directory of the input video files
 TARGET_DIRECTORY = 'features'  # targets will be put in this directory

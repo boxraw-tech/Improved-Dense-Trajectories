@@ -68,7 +68,7 @@ RUN apt update --fix-missing && apt-get install tzdata -qy &&\
 RUN pip3 install scikit-learn pandas
 
 WORKDIR densetrack
-COPY . .
 RUN pip3 install numpy==1.21
+COPY . .
 RUN python3 setup.py install
 ENTRYPOINT python3 -u run_idt.py

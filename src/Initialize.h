@@ -1,6 +1,7 @@
 #ifndef INITIALIZE_H_
 #define INITIALIZE_H_
 
+#include <libgen.h>
 #include "DenseTrackStab.h"
 
 using namespace cv;

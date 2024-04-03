@@ -585,7 +585,7 @@ densetrack_densetrack(PyObject* self, PyObject* args, PyObject* kwds) {
 		"nt_cell", "scale_num", "init_gap", "poly_n", "poly_sigma",
 		"image_pattern", "adjust_camera", "scale_stride", NULL};
 	PyObject* video;
-	int track_length = 15;
+	int track_length = 14;
 	int min_distance = 5;
 	int patch_size = 32;
 	int nxy_cell = 2;
